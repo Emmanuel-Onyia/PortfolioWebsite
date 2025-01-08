@@ -9,38 +9,91 @@
 
     <style>
         /* General Styles */
+        body {
+            background-color: #121212; /* Dark Background */
+            color: #e0e0e0; /* Light Text for Readability */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    
         .center-text {
             text-align: center;
+            color: #ffffff; /* White for Headers */
         }
-
-        /* Smooth Scrolling */
-        html {
-            scroll-behavior: smooth;
+    
+        /* Container Styling */
+        .container {
+            background-color: #1e1e1e; /* Slightly Lighter Dark Background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
         }
-
+    
         /* Fade-in Effect */
         .fade-in {
             opacity: 0;
             transform: translateY(20px);
             animation: fadeIn 1.5s ease-in-out forwards;
         }
-
+    
         @keyframes fadeIn {
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-
+    
         /* Image Hover Effect */
         .img-responsive {
             transition: transform 0.3s ease-in-out;
+            border: 2px solid #444; /* Border for Better Visibility */
         }
-
+    
         .img-responsive:hover {
             transform: scale(1.05);
+            border-color: #ffffff;
         }
-    </style> 
+    
+        /* Project Details */
+        h3 {
+            color: #f0f0f0;
+        }
+    
+        ul {
+            list-style-type: disc;
+        }
+    
+        ul li {
+            margin-bottom: 5px;
+        }
+    
+        /* Button Styling */
+        .btn-primary {
+            background-color: #0078D4; /* Bright Blue for Contrast */
+            border: none;
+        }
+    
+        .btn-primary:hover {
+            background-color: #005bb5; /* Slightly Darker Blue */
+        }
+    
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .center-text {
+                font-size: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
