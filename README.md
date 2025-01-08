@@ -17,6 +17,9 @@ Skills i've practices
 4. Git
 
 
+2025-01-08
+I made some edits to the text on my site.
+Giving some detail about projects and what I'm working on.
 
 
 
