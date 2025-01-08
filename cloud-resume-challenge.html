@@ -8,37 +8,67 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <style>
+        /* General Styles */
         .center-text {
             text-align: center;
         }
-        
-       </style> 
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Fade-in Effect */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Image Hover Effect */
+        .img-responsive {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .img-responsive:hover {
+            transform: scale(1.05);
+        }
+    </style> 
 </head>
 <body>
     <div class="container">
-        <h1 class="center-text">Cloud Resume Challenge</h1>
-        <p>This is a project I created as part of the Cloud Resume Challenge. The challenge includes building a cloud-hosted resume/portfolio and setting up infrastructure as code (IaC) using AWS.</p>
+        <h1 class="center-text fade-in">Cloud Resume Challenge</h1>
+        <p class="fade-in">This is a project I created as part of the Cloud Resume Challenge. The challenge includes building a cloud-hosted resume/portfolio and setting up infrastructure as code (IaC) using AWS.</p>
         
         <!-- Images and Project Details -->
         <div class="row">
-            <div class="col-md-6">
-                <img src="images/Arch_diagram.jpg " class="img-responsive" alt="Cloud Resume Details">
+            <div class="col-md-6 fade-in" style="animation-delay: 0.5s;">
+                <img src="images/Arch_diagram.jpg" class="img-responsive" alt="Cloud Resume Details">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 fade-in" style="animation-delay: 1s;">
                 <h3>Project Details</h3>
                 <ul>
-                    <li>Created and customised the site locally using html, css and javascript</li>
+                    <li>Created and customised the site locally using HTML, CSS, and JavaScript.</li>
                     <li>Configured an S3 bucket to host the resume files.</li>
                     <li>Secured the resume using CloudFront and Route 53 for domain management.</li>
                     <li>Used AWS Certificate Manager to provision and manage SSL/TLS certificates with AWS services.</li>
                 </ul>
-                <p>The project highlights my skills in html/css, AWS cloud sevices and security.</p>
-                <p>The project will be updated and optimised with every new learning.<p>
+                <p>The project highlights my skills in HTML/CSS, AWS cloud services, and security.</p>
+                <p>The project will be updated and optimised with every new learning.</p>
             </div>
         </div>
 
-     
-        <!-- Add More Sections as Needed -->
+        <!-- Back to Top Button -->
+        <div class="center-text">
+            <a href="#" class="btn btn-primary mt-4">Back to Top</a>
+        </div>
     </div>
 
     <!-- Bootstrap JS -->
