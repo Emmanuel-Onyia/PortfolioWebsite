@@ -33,3 +33,11 @@ I searched to find out what it could mean and I fould it was a permissions issue
 I said fuckit and have it full access. FORNOW xD.
 
 
+2025-01-14
+01:10
+I'm losing my mind with this troubleshooting.
+I tried fixing the permissions because I felt it wasn't okay to just give full access.
+I added singular policies and failed.
+So I tried to allow unlimited acces to dynamodb from lambda again
+Didin't work.
+I'll try again when I wake up.
