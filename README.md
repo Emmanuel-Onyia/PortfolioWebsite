@@ -25,4 +25,11 @@ Giving some detail about projects and what I'm working on.
 22:52 
 I'm back, Had to work a couple of days straight at walmart.
 
+23:45
+I have been trying to create a website visit counter
+I used dynamodb to create a serverless storage and intialised a lambda function
+The deployment worked but I tried curling and using the Ui link but there was an internal server error.
+I searched to find out what it could mean and I fould it was a permissions issue. Lambdas IAM role does not have the getitem and put item policy.
+I said fuckit and have it full access. FORNOW xD.
+
 
