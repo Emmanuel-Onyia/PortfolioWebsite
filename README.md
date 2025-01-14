@@ -21,5 +21,8 @@ Skills i've practices
 I made some edits to the text on my site.
 Giving some detail about projects and what I'm working on.
 
+2025-01-13
+22:52 
+I'm back, Had to work a couple of days straight at walmart.
 
 
