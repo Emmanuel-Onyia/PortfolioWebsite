@@ -28,9 +28,9 @@ I'm back, Had to work a couple of days straight at walmart.
 23:45
 I have been trying to create a website visit counter
 I used dynamodb to create a serverless storage and intialised a lambda function
-The deployment worked but I tried curling and using the Ui link but there was an internal server error.
+The deployment worked but I tried curling and using the UI link but there was an internal server error.
 I searched to find out what it could mean and I fould it was a permissions issue. Lambdas IAM role does not have the getitem and put item policy.
-I said fuckit and have it full access. FORNOW xD.
+I said fuckiit and gave it full access. FORNOW xD.
 
 
 2025-01-14
@@ -41,3 +41,10 @@ I added singular policies and failed.
 So I tried to allow unlimited acces to dynamodb from lambda again
 Didin't work.
 I'll try again when I wake up.
+.....
+
+2025-01-15
+22:16
+Got back from walmart shift. Back on the project.
+The Goal today is to make some edits to the website to practice my html and css. 
+Also I would liek to continue troubleshooting the previous permission issue with my lambda function.
