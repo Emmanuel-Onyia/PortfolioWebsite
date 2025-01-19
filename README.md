@@ -47,4 +47,4 @@ I'll try again when I wake up.
 22:16
 Got back from walmart shift. Back on the project.
 The Goal today is to make some edits to the website to practice my html and css. 
-Also I would liek to continue troubleshooting the previous permission issue with my lambda function.
+Also I would like to continue troubleshooting the previous permission issue with my lambda function.
