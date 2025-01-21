@@ -48,3 +48,16 @@ I'll try again when I wake up.
 Got back from walmart shift. Back on the project.
 The Goal today is to make some edits to the website to practice my html and css. 
 Also I would like to continue troubleshooting the previous permission issue with my lambda function.
+
+
+2025-01-18
+I began learning terraform to automate the deployment of Iaac on AWS.
+
+2025-01-20
+I spent 2 hours trying to debug an issue with my terraform code.
+Issue: I had left my AWS Akey and Skey in the code while committing.
+I could not commit so I had to learn how to edit a previous commit using the git filter-repo tool. Most frustrasting so far. But fun :).
+
+2025-01-21
+Made some edits to the website
+I will continue on the 23rd.
