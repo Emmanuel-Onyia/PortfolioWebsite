@@ -61,3 +61,6 @@ I could not commit so I had to learn how to edit a previous commit using the git
 2025-01-21
 Made some edits to the website
 I will continue on the 23rd.
+
+2025-01-23
+I spent the past 2 days resolving some commit issues and an issue with AWS suspending my account and Akeys
